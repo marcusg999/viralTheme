@@ -1,0 +1,144 @@
+/*
+Theme Name: Start WordPress
+Author: Marcus Gray
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    transition: background-color .5s;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: .8em;
+}
+
+
+.service-list {
+list-style-type: none;
+margin-left:0em;
+padding-left:0em;
+display: inline-block;
+
+}
+
+
+.service-list p,.service-list h3 {
+text-align: right;
+display:inline-block;
+padding: 0;
+}
+
+.social {
+    float: right;
+    padding-right: 5em;
+
+}
+
+
+.videos {
+    float: left;
+    font-size: 2em;
+
+
+}
+
+.iframe{
+    float: right;
+    border:solid;
+    border-width: 5px;
+    width:545;
+    height:313;
+    text-align: center;
+    padding:3px 0px 1px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+.mainVideo {
+  float: left;
+}
+.container {
+    float:left;
+
+}
+
+.quizzies{
+    margin:auto;
+    width:30em;
+    length:3em;
+    padding-left: 6em;
+    margin-right: 2em;
+}
+
+.tweets{
+    width:30em;
+    length:3em;
+}
+.stories{
+    width:22em;
+    length:3em;
+    margin-left: -1em;
+}
+.contributors{
+    width:70em;
+    length:3em;
+    padding-right: 5em;
+}
+
+/*.inline-block {
+    display: inline-block;
+}*/
+
+.adimage {
+    float: left;
+    margin:0em 15em 0em 5em;
+    padding:auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-style: solid;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.adimagevideo {
+
+    width:22em;
+    height:44em;
+    margin:0em 0em 0em 10em;
+    padding: 0em 0em 5em 0em;
+    border-style: solid;
+}
+
+.email {
+    float: right;
+    width:23em;
+    height:9em;
+    padding:0em 0em 0em 0em;
+    margin:0em -1em 0em 28em;
+    border-style: solid;
+
+}
+
+.emailvideo {
+    float: right;
+    width:22em;
+    height:8em;
+    margin:auto;
+    padding: auto;
+    border-style: solid;
+
+}
+
+@media screen and (max-width: 500px) {
+    div.mobile-collapse{
+      width: auto;
+      float: none;
+      margin-right: 0;
+    }
+}

@@ -1,0 +1,138 @@
+/*
+Theme Name: Start WordPress
+Author: Marcus Gray
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    transition: background-color .5s;
+}
+
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: .8em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.service-list {
+list-style-type: none;
+margin-left:0em;
+padding-left:0em;
+display: inline-block;
+
+}
+
+
+.service-list p,.service-list h3 {
+text-align: right;
+display:inline-block;
+padding: 0;
+}
+
+.social {
+    float: right;
+    padding-right: 5em;
+
+}
+/**/
+
+.videos {
+    font-size: 2em;
+}
+
+.mainVideo {
+    /**/
+}
+.container-fluid {
+    float:left;
+
+}
+.tweets{
+    width:30em;
+    length:3em;
+}
+.stories{
+    width:30em;
+    length:3em;
+}
+.contributors{
+    width:30em;
+    length:3em;
+}
+
+
+
+.adimage {
+   float: right;
+    width:25em;
+    height:41em;
+    margin:auto;
+    padding:0em 0em 0em 5em;
+    position: relative; top: -1em;
+    border-style: solid;
+    clear:left;
+}
+.adimagevideo {
+    float: right;
+    width:20.5em;
+    height:41em;
+    margin:10em 5em 0em 0em;
+    position: relative; top: -8em;
+    padding: auto;
+    border-style: solid;
+    clear:left;
+}
+
+/*.clearfix {
+    overflow: auto;
+}*/
+.email {
+    float: right;
+    width:22em;
+    height:9em;
+    padding:padding:0em 0em 0em 0em;
+    margin: auto;
+    border-style: solid;
+    /*clear:left;*/
+}
+
+.emailvideo {
+    float: right;
+    width:22em;
+    height:9em;
+    padding:0em 0em 0em 5em;
+    margin: 0em 0em 7em 5em;
+    border-style: solid;
+    clear:left;
+}
+
+/* scroll*/
