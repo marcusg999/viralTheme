@@ -43,19 +43,17 @@ padding: 0;
 .videos {
     float: left;
     font-size: 2em;
-
-
 }
 
 .iframe{
     float: right;
     border:solid;
     border-width: 5px;
-    width:545;
-    height:313;
+    width:100%;
+    height:100%;
     text-align: center;
-    padding:3px 0px 1px 0px;
-    margin: 5px 0px 5px 0px;
+    padding:.5em 36em 0em 0em;
+    margin: 5em 6em 0em 0em;
 }
 
 .mainVideo {
@@ -63,14 +61,13 @@ padding: 0;
 }
 .container {
     float:left;
-
 }
 
 .quizzies{
     margin:auto;
     width:30em;
     length:3em;
-    padding-left: 6em;
+    /*float:*/
     margin-right: 2em;
 }
 
@@ -78,20 +75,17 @@ padding: 0;
     width:30em;
     length:3em;
 }
+
 .stories{
     width:22em;
     length:3em;
-    margin-left: -1em;
-}
-.contributors{
-    width:70em;
-    length:3em;
-    padding-right: 5em;
 }
 
-/*.inline-block {
-    display: inline-block;
-}*/
+.contributors{
+    width:28em;
+    length:1em;
+
+}
 
 .adimage {
     float: left;
