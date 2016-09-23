@@ -52,7 +52,7 @@ padding: 0;
     width:100%;
     height:100%;
     text-align: center;
-    padding:.5em 36em 0em 0em;
+    padding:.5em 0em 0em 0em;
     margin: 5em 6em 0em 0em;
 }
 
@@ -63,12 +63,12 @@ padding: 0;
     float:left;
 }
 
-.quizzies{
-    margin:auto;
+.quizzies   {
+
     width:30em;
     length:3em;
-    /*float:*/
-    margin-right: 2em;
+    float: right !important;
+
 }
 
 .tweets{
@@ -84,16 +84,17 @@ padding: 0;
 .contributors{
     width:28em;
     length:1em;
+    margin-right: 15em;
 
 }
 
 .adimage {
     float: left;
-    margin:0em 15em 0em 5em;
+    margin:0em 15em 10em 5em;
     padding:auto;
     max-width: 100%;
     max-height: 100%;
-    border-style: solid;
+    border-st:;yle: solid;
 }
 
 .pull-right {
