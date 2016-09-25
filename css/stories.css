@@ -7,14 +7,14 @@ Tags: bootstrap
 */
 
 body {
-    font-family: "Montserrat", sans-serif;
-    transition: background-color .5s;
+  font-family: "Montserrat", sans-serif;
+  transition: background-color .5s;
 }
 
 
 #main {
-    transition: margin-left .5s;
-    padding: .8em;
+  transition: margin-left .5s;
+  padding: .8em;
 }
 
 .navbar-nav > li{
@@ -24,22 +24,22 @@ body {
 
 
 .stories-list {
-list-style-type: none;
-margin-left:0em;
-padding-left:0em;
-display: inline-block;
+  list-style-type: none;
+  margin-left:0em;
+  padding-left:0em;
+  display: inline-block;
 
 }
 
 
 .stories-list p,.stories-list h3 {
-text-align: right;
-display:inline-block;
-padding: 0;
+  text-align: right;
+  display:inline-block;
+  padding: 0;
 }
 
 .social {
-    padding: 0em 0em 0em 0em;
+  padding: 0em 0em 0em 0em;
 }
 
 
@@ -64,10 +64,15 @@ padding: 0;
 }
 
 .caption-image{
-        margin: -10em 0em 0em 0em;
-        width: 30em;
-        height: 22em;
+    margin: -10em 0em 0em 0em;
+    width: 30em;
+    height: 22em;
+}
 
+.more-info{
+    background-color: grey;
+    width: 30em;
+    height:auto;
 }
 
 .adimage {
