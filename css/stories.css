@@ -23,7 +23,7 @@ body {
 }
 
 
-.service-list {
+.stories-list {
 list-style-type: none;
 margin-left:0em;
 padding-left:0em;
@@ -32,51 +32,22 @@ display: inline-block;
 }
 
 
-.service-list p,.service-list h3 {
+.stories-list p,.stories-list h3 {
 text-align: right;
 display:inline-block;
 padding: 0;
 }
 
 .social {
-    float: right;
-    padding-right: 5em;
-
+    padding: 0em 0em 0em 0em;
 }
 
-
-.iframe{
-    border:solid;
-    border-width: 5px;
-    width:75%;
-    height:50%;
-    text-align: center;
-    padding:.5em 0em 0em 0em;
-    margin: 5em 6em 0em 3em;
-}
 
 .mainVideo {
   float: left;
 }
 .container {
    padding:0em 4em 0em 0em;
-}
-
-.videos {
-    float: left;
-    font-size: 1em;
-    padding: 0em 0em 0em 1em;
-}
-.quizzies   {
-    width:35em;
-    length:3em;
-    padding: 3em 0em 0em 0em;
-}
-
-.tweets{
-    width:34em;
-    length:3em;
-    padding: 0em 3em 0em 0em;
 }
 
 .stories{
@@ -92,9 +63,13 @@ padding: 0;
 
 }
 
+.caption-image{
+        margin: -10em 0em 0em 0em;
+
+}
+
 .adimage {
     padding: 0em 0em 0em 0em;
-
     max-width: 100%;
     max-height: 100%;
     border-style: solid;
