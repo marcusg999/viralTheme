@@ -17,6 +17,11 @@ body {
     padding: .8em;
 }
 
+.navbar-nav > li{
+  padding-left:40px;
+  padding-right:40px;
+}
+
 
 .service-list {
 list-style-type: none;
@@ -40,21 +45,14 @@ padding: 0;
 }
 
 
-.videos {
-    float: left;
-    font-size: 2em;
-}
-
-
 .iframe{
-    /*float: right;
     border:solid;
     border-width: 5px;
-    width:100%;
-    height:100%;
+    width:50%;
+    height:50%;
     text-align: center;
     padding:.5em 0em 0em 0em;
-    margin: 5em 6em 0em 0em;*/
+    margin: 5em 6em 0em 3em;
 }
 
 .mainVideo {
@@ -64,21 +62,27 @@ padding: 0;
     float:left;
 }
 
+.videos {
+    float: left;
+    font-size: 1em;
+    padding: 0em 0em 0em 1em;
+}
 .quizzies   {
-    width:30em;
+    width:35em;
     length:3em;
-    float: right !important;
-
+    padding: 3em 0em 0em 0em;
 }
 
 .tweets{
-    width:30em;
+    width:34em;
     length:3em;
+    padding: 0em 3em 0em 0em;
 }
 
 .stories{
-    width:22em;
+    width:35em;
     length:3em;
+    padding: 11em 0em 0em 0em;
 }
 
 .contributors{
@@ -89,27 +93,12 @@ padding: 0;
 }
 
 .adimage {
-    padding: 0em 14em 1em 0em;
-    margin:0em 2em 1em 1em;
+    padding: 0em 0em 0em 0em;
+
     max-width: 100%;
     max-height: 100%;
     border-style: solid;
-}
-
-.pull-right {
-  float: right !important;
-}
-
-.email {
-    float: right;
-    width:23em;
-    height:9em;
-    padding:0em 0em 0em 0em;
-    margin:0em -1em 0em 28em;
-    border-style: solid;
-
-}
-
+    }
 
 @media screen and (max-width: 500px) {
     div.mobile-collapse{
