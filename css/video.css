@@ -20,19 +20,23 @@ body {
 .navbar-nav > li{
   padding:1em 3em 1em 3em;
   border-left:1px solid grey;
-  background-color: white;
+  text-align: center;
+  height: 7em;
+
+}
+
+.navbar-nav > li a{
+  padding-top:2em;
+  text-align: center;
+
+
 }
 .navbar-header{
   background-color: white;
   border-top-width: 2em;
   margin: 0em 1.7em 0em 0em;
-
+  height: 7em;
 }
-
-.navbar navbar-default {
-  background-color: white;
-}
-
 .service-list {
 list-style-type: none;
 margin-left:0em;
@@ -51,11 +55,9 @@ padding: 0;
 .social {
     float: right;
     margin: 0em 1em 2em 0em;
-    padding: 1em 1em 1em 1em;
+    padding: .5em 1em .5em 1em;
     border:1px solid grey;
-
 }
-
 
 .videos {
     float: left;
