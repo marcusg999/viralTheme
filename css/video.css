@@ -33,7 +33,6 @@ body {
   background-color: white;
 }
 
-
 .service-list {
 list-style-type: none;
 margin-left:0em;
@@ -52,7 +51,8 @@ padding: 0;
 .social {
     float: right;
     margin: 0em 1em 2em 0em;
-    padding: 0em 0em 0em 1em;
+    padding: 1em 1em 1em 1em;
+    border:1px solid grey;
 
 }
 

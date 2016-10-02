@@ -18,10 +18,20 @@ body {
 }
 
 .navbar-nav > li{
-  padding-left:40px;
-  padding-right:50px;
+  padding:1em 3em 1em 3em;
+  border-left:1px solid grey;
+  background-color: white;
+}
+.navbar-header{
+  background-color: white;
+  border-top-width: 2em;
+  margin: 0em 1.7em 0em 0em;
+
 }
 
+.navbar navbar-default {
+  background-color: white;
+}
 
 .stories-list {
   list-style-type: none;
