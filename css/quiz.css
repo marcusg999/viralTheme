@@ -28,6 +28,7 @@ body {
   margin-left:0em;
   padding-left:0em;
   display: inline-block;
+
 }
 
 
@@ -39,7 +40,9 @@ body {
 
 .social {
   padding: 0em 0em 0em 0em;
+  float:right;
 }
+
 
 .mainVideo {
   float: left;
@@ -49,11 +52,6 @@ body {
    margin:0em 0em 0em 2em;
 }
 
-.stories{
-    width:35em;
-    length:3em;
-    padding: 11em 0em 0em 0em;
-}
 
 .contributors{
     width:28em;
@@ -62,23 +60,45 @@ body {
 
 }
 
-.caption-image{
-    margin: -10em 0em 0em 0em;
-    width: 30em;
-    height: 22em;
+.header_quiz_image {
+    margin: 0em 0em 0em -1em;
+    height: 32em;
+    width: 100%;
+    border: solid 4px;
 }
-
+.header_quiz {
+    width: 20em;
+    height: 9em;
+    border: solid 4px;
+    padding: 6em 8em 10em 11em;
+    margin: 1em 4em 3em -1em;
+}
+.quiz_box {
+    width: 12em;
+    height: 6em;
+    border: solid 4px;
+    padding: 5em 7em 7em 10em;
+    margin: -5.5em 3em 0em -10em;
+}
 .more-info{
     background-color: grey;
     width: 30em;
     height:auto;
 }
+.checkbox {
+    margin-left: -8em;
+    position: absolute;
+
+
+
+}
 
 .adimage {
-    padding: 0em 0em 0em 0em;
+    float: right;
+    margin: 6em 10em 0em -6em;
+    padding: 0em 0em 0em 13em;
     max-width: 100%;
     max-height: 100%;
-    border-style: solid;
     }
 
 @media screen and (max-width: 500px) {
