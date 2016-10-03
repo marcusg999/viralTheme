@@ -9,7 +9,6 @@ Tags: bootstrap
 body {
     font-family: "Montserrat", sans-serif;
     transition: background-color .5s;
-
 }
 
 
@@ -17,6 +16,12 @@ body {
     transition: margin-left .5s;
     padding: .8em;
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+
 
 .navbar-nav > li{
   padding:1em 3em 1em 3em;

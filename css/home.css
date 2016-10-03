@@ -12,8 +12,6 @@ body {
     padding: -4em 0em 0em 0em;
 }
 
-ul.nav a:hover { color: #fff !important; }
-
 
 #main {
   transition: margin-left .5s;
@@ -24,6 +22,11 @@ ul.nav a:hover { color: #fff !important; }
   text-align: center;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+
 .navbar-nav > li{
   padding:1em 3em 1em 3em;
   border-left:1px solid grey;
@@ -32,12 +35,12 @@ ul.nav a:hover { color: #fff !important; }
 
 }
 
-.navbar-nav > li a{
+.navbar-nav > li a {
   padding-top:2em;
   text-align: center;
-
-
 }
+
+
 .navbar-header{
   background-color: white;
   border-top-width: 2em;

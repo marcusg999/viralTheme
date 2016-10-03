@@ -17,6 +17,11 @@ body {
   padding: .8em;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+
 .navbar-nav > li{
   padding:1em 3em 1em 3em;
   border-left:1px solid grey;
