@@ -9,7 +9,10 @@ Tags: bootstrap
 body {
     font-family: "Montserrat", sans-serif;
     transition: background-color .5s;
+    padding: -4em 0em 0em 0em;
 }
+
+
 
 
 #main {
@@ -59,8 +62,9 @@ padding: 0;
 .social {
     float: right;
     margin: 0em 1em 2em 0em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 3em 1em 3em;
     border:1px solid grey;
+    width: 40%
 }
 
 
@@ -76,7 +80,7 @@ padding: 0;
   float: left;
 }
 .container {
-   padding:0em 4em 0em 0em;
+   padding:1em 4em 0em 0em;
 }
 
 .videos {
@@ -91,9 +95,10 @@ padding: 0;
 }
 
 .tweets{
-    width:34em;
-    length:3em;
-    padding: 0em 3em 0em 0em;
+    width:38em;
+    length:5em;
+    padding: 2em 0em 0em 0em;
+    margin:0em 1em 0em 0em;
 }
 
 .stories{

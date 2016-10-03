@@ -38,6 +38,7 @@ body {
   margin: 0em 1.7em 0em 0em;
   height: 7em;
 }
+
 .service-list {
 list-style-type: none;
 margin-left:0em;
@@ -59,6 +60,7 @@ padding: 0;
     padding: .5em 1em .5em 1em;
     border:1px solid grey;
 }
+
 
 .videos {
     float: left;
