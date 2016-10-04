@@ -50,10 +50,16 @@ body {
 
 .service-list {
 list-style-type: none;
-margin-left:0em;
-padding-left:0em;
+margin:0em 0em 0em 0em;
+padding:0em 0em 0em 0em;
 display: inline-block;
 
+}
+
+.service-list img {
+
+border-style:solid;
+border-width: 3px;
 }
 
 .service-list p,.service-list h3 {
@@ -63,11 +69,13 @@ padding: 0;
 }
 
 .social {
-    float: right;
-    margin: 0em 1em 2em 0em;
-    padding: 1em 3em 1em 3em;
+   /* float: right;
+*/    margin: 0em 0em 0em 0em;
+    padding: 1em 0em 2em 2em;
     border:1px solid grey;
-    width: 40%
+    width: 60%;
+    height:100%;
+    text-align: center;
 }
 
 
@@ -76,38 +84,39 @@ padding: 0;
     height:100%;
     text-align: center;
     padding:.5em 11em 0em 0em;
-    margin: 5em 6em 0em 3em;
+    margin: 5em 6em 10em 3em;
 }
 
-.mainVideo {
-  float: left;
-}
-.container {
-   padding:1em 4em 0em 0em;
+
+.container-fluid {
+
 }
 
 .videos {
     float: left;
     font-size: 1em;
-    padding: 0em 0em 0em 0em;
+    padding: 0em 0em 8em 0em;
+    margin: 0em 0em 1em 0em;
 }
 .quizzies   {
-    width:35em;
-    length:3em;
-    padding: 3em 0em 0em 0em;
+    width: 100%;
+    length: 100%;
+    padding: 10em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
 .tweets{
     width:38em;
     length:5em;
     padding: 2em 0em 0em 0em;
-    margin:0em 1em 0em 0em;
+    margin:0em 1em 0em 11em;
 }
 
 .stories{
     width:35em;
     length:3em;
-    padding: 7em 0em 0em 0em;
+    padding: 3em 0em 0em 0em;
+    margin: 3em 0em 0em 1em;
 }
 
 .contributors{
@@ -117,6 +126,8 @@ padding: 0;
 }
 
 .adimage {
+    margin: 2em 0em 0em 5em;
+    padding: 16em 0em 0em 0em;
     width: 100%;
     height: 100%;
 
