@@ -69,8 +69,7 @@ padding: 0;
 }
 
 .social {
-   /* float: right;
-*/    margin: 0em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
     padding: 1em 0em 2em 2em;
     border:1px solid grey;
     width: 60%;
@@ -101,7 +100,7 @@ padding: 0;
 .quizzies   {
     width: 100%;
     length: 100%;
-    padding: 10em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
     margin: 0em 0em 0em 0em;
 }
 
@@ -109,7 +108,7 @@ padding: 0;
     width:38em;
     length:5em;
     padding: 2em 0em 0em 0em;
-    margin:0em 1em 0em 11em;
+    margin:0em 1em 0em 0em;
 }
 
 .stories{
@@ -126,8 +125,8 @@ padding: 0;
 }
 
 .adimage {
-    margin: 2em 0em 0em 5em;
-    padding: 16em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 2em 0em 0em;
     width: 100%;
     height: 100%;
 
