@@ -26,9 +26,12 @@ body {
     color: black;
     background-color: white;
 }
+.navbar-default {
+  padding:0em 0em 0em 3em;
+}
 
 .navbar-nav > li{
-  padding:1em 3em 1em 3em;
+  padding:1em 3em 1em 4em;
   border-left:1px solid grey;
   text-align: center;
   height: 7em;
@@ -44,28 +47,28 @@ body {
 .navbar-header{
   background-color: white;
   border-top-width: 2em;
+  padding: 0em 2em 0em 2em;
   margin: 0em 1.7em 0em 0em;
   height: 7em;
 }
 
 .service-list {
-list-style-type: none;
-margin:0em 0em 0em 0em;
-padding:0em 0em 0em 0em;
-display: inline-block;
+  list-style-type: none;
+  margin:0em 0em 0em 0em;
+  padding:0em 0em 0em 0em;
+  display: inline-block;
 
 }
 
 .service-list img {
-
-border-style:solid;
-border-width: 3px;
+  border-style:solid;
+  border-width: 3px;
 }
 
 .service-list p,.service-list h3 {
-text-align: right;
-display:inline-block;
-padding: 0;
+  text-align: right;
+  display:inline-block;
+  padding: 0;
 }
 
 .social {
@@ -91,12 +94,29 @@ padding: 0;
 
 }
 
+
+
 .videos {
-    float: left;
+    /*float: left;*/
     font-size: 1em;
-    padding: 0em 0em 8em 0em;
+    color:#808080;
+    padding: 0em 0em 8em 10em;
     margin: 0em 0em 1em 0em;
 }
+
+  h2 {
+    font-size: 1.7em;
+    font-weight: extra bold;
+    color:#808080;
+}
+
+ h3 {
+    font-size: 1.4em;
+    font-weight: extra bold;
+    color:#808080;
+}
+
+
 .quizzies   {
     width: 100%;
     length: 100%;
@@ -112,10 +132,10 @@ padding: 0;
 }
 
 .stories{
-    width:35em;
-    length:3em;
+    width:100%;
+    length:100%;
     padding: 3em 0em 0em 0em;
-    margin: 3em 0em 0em 1em;
+    margin: 3em 0em 0em 3em;
 }
 
 .contributors{
@@ -125,11 +145,10 @@ padding: 0;
 }
 
 .adimage {
-    margin: 0em 0em 0em 0em;
-    padding: 0em 2em 0em 0em;
+    margin: 3em 2em 0em 0em;
+    padding: 0em 0em 0em 4em;
     width: 100%;
     height: 100%;
-
     }
 
 @media screen and (max-width: 500px) {
