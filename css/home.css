@@ -33,7 +33,7 @@ body {
 
 .navbar-nav > li{
   padding:1em 3em 1em 4em;
-  border-left:1px solid grey;
+  border-left:1px solid #eee;
   text-align: center;
   height: 7em;
 
@@ -62,7 +62,7 @@ body {
 }
 
 .service-list img {
-  border-style:solid;
+  border-style:solid #eee ;
   border-width: 3px;
 }
 
@@ -75,7 +75,7 @@ body {
 .social {
     margin: 0em 0em 0em 0em;
     padding: 1em 0em 2em 2em;
-    border:1px solid grey;
+    border:1px solid #eee;
     width: 100%;
     height:100%;
     text-align: center;
