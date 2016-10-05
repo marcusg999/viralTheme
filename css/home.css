@@ -62,8 +62,10 @@ body {
 }
 
 .service-list img {
-  border-style:solid #eee ;
-  border-width: 3px;
+  border:solid black ;
+  border-width: .3em;
+  height:3em;
+  width:4.3em;
 }
 
 .service-list p,.service-list h3 {
@@ -82,29 +84,49 @@ body {
 }
 
 
-.iframe{
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  margin-left: 3em;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
+.iframe li.service-list{
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+
+}
+
+.playbtn {
     width:100%;
     height:100%;
-    text-align: center;
-    padding:.5em 11em 0em 0em;
-    margin: 5em 6em 10em 3em;
+
+    padding: 0em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
-
-.container-fluid {
-
-}
 
  .vertical-line {
-        border-left: 1px solid #eee;
-        height: 100em;
+    border-left: 1px solid #eee;
+    height: 70em;
         }
 
 .videos {
     /*float: left;*/
     font-size: 1em;
     color:#808080;
-    padding: 0em 0em 8em 10em;
+    padding: 0em 0em 0em 0em;
     margin: 0em 0em 1em 0em;
 }
 
@@ -112,12 +134,14 @@ body {
     font-size: 1.7em;
     font-weight: extra bold;
     color:#808080;
+    margin-left: 1.5em;
 }
 
  h3 {
     font-size: 1.3em;
     font-weight: extra bold;
     color:#808080;
+    margin-left: 1.5em;
 }
 
 
@@ -126,12 +150,13 @@ body {
     length: 100%;
     padding: 0em 0em 0em 0em;
     margin: 0em 0em 0em 0em;
+
 }
 
 .tweets{
-    width:38em;
-    length:5em;
-    padding: 2em 0em 0em 0em;
+    width:100%;
+    length:100%;
+    padding: 0em 0em 0em 0em;
     margin:0em 1em 0em 0em;
 }
 
@@ -142,11 +167,6 @@ body {
     margin: 3em 0em 0em 3em;
 }
 
-.contributors{
-    width:28em;
-    length:1em;
-    margin-right: 15em;
-}
 
 .adimage {
     margin: 3em 2em 0em 0em;
