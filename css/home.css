@@ -92,8 +92,8 @@ nav.navbar.navbar-default{
 }
 
 .social {
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 1em 0em;
+    margin: 1em 0em 0em 0em;
+    padding: 1em 0em 1em 0em;
     border:1px solid #eee;
     width: 100%;
     height:100%;
@@ -109,6 +109,7 @@ nav.navbar.navbar-default{
   overflow:hidden;
   margin-left: 3em;
   border: .5em solid black;
+
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -119,6 +120,9 @@ nav.navbar.navbar-default{
   height:100%;
 }
 
+.video-container > img{
+      margin:0 auto;
+}
 
 .iframe li.service-list{
     margin: 0em 0em 0em 0em;
