@@ -17,7 +17,7 @@
   <script src="index.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?php bloginfo('template_directory');?>style.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/video.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <div class="blog-header">
   <h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
@@ -30,16 +30,15 @@
     <![endif]-->
   <?php wp_head();?>
 
-
     <div class="container">
-          <nav class="navbar navbar-default">
-            <div class="navbar-header">
-              <img src="./images/shareworthy-Theme-logo.jpg" alt="">
-            </div>
+          <nav class="navbar navbar-default " style="background-color: white">
+              <div class="navbar-header">
+                <img src="./images/shareworthy-Theme-Logo.jpg" >
+              </div>
               <ul class="nav navbar-nav">
-              <li class="active"><a data-toggle="tab" href="Home">Home</a></li>
               <li><a data-toggle="tab" href="Quizzies">Quizzies</a></li>
               <li><a data-toggle="tab" href="Videos">Videos</a></li>
+              <li><a data-toggle="tab" href="Home">Stories</a></li>
               <li><a data-toggle="tab" href="Polls">Polls</a></li>
             </ul>
         </nav>
@@ -53,7 +52,7 @@
              <a href="#"><img src="./images/Pinterest_Color.png" alt="icon" height="42" width="42"></a>
 
         </div>
-        </div>
+    </div>
 
 <!--nav sidebar-->
 
@@ -68,7 +67,7 @@
     <h3>Videos</h3>
     </div>
         <div class="row">
-              <div class="col-md-6 col-lg-6 " style="background-color:green;">
+              <div class="col-md-6 col-lg-6 " >
 
                   <div class = "video-container">
                              <div class="iframe">
@@ -92,17 +91,14 @@
 
               </div>
 
-              <div class="col-md-offset-6 " style="background-color:yellow;">
+              <div class="col-md-offset-6 ">
                             <div class="adimagevideo"><img src="./images/Ad-femme.jpg">
-                              <div class="pull-right">
-                              <hr>
                               <div class="emailvideo">
                                   <h3>Get News</h3>
                                 <form action="action_page.php">
                                     <input type="email" placeholder="your email address" name="email">
                                   <button type="button" class="btn btn-default">Sign Me Up</button>
                                 </form>
-                              </div>
                               </div>
                             </div>
               </div>

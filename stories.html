@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script language="javascript" type="text/javascript">
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
+  <script src="index.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_directory');?>style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/stories.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <div class="blog-header">
+  <h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+  <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+  </div>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <?php wp_head();?>
+
+
+    <div class="container">
+          <nav class="navbar navbar-default " style="background-color: white">
+            <div class="navbar-header">
+              <img src="./images/shareworthy-Theme-Logo.jpg" >
+            </div>
+              <ul class="nav navbar-nav">
+              <li><a data-toggle="tab" href="Quizzies">Quizzies</a></li>
+              <li><a data-toggle="tab" href="Videos">Videos</a></li>
+              <li><a data-toggle="tab" href="Home">Stories</a></li>
+              <li><a data-toggle="tab" href="Polls">Polls</a></li>
+            </ul>
+        </nav>
+    </div>
+<!--nav sidebar-->
+
+
+
+</head>
+
+<body>
+
+<div class="container">
+<h3>Stories</h3>
+  <div class="row">
+    <div class="col-lg-8 col-md-6 col-xs-6" >
+      <div class="stories">
+          <div class="caption-image"><img src="./images/unicorn-large-crop.jpg"></div>
+            <H6>This is a caption</H6>
+            <h2>Of Real Concern is this</h2>
+              <div class="social" height="22" width="42">
+                 <a href="#"><img src="./images/Facebook_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Instagram_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Linkedin_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Twitter_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Vimeo_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Behance_Color.png" alt="icon" height="42" width="42"></a>
+                 <a href="#"><img src="./images/Pinterest_Color.png" alt="icon" height="42" width="42"></a>
+            </div>
+            <div class="date-posted">
+                <H6>posted on sept 8, 2016 at 5:31am</H6>
+                <br>
+            </div>
+            <div class="story-content">
+              <p>aldkjflakd jflkajdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakdj flka  jdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakd jflkajdlfkjalkdfja lkdfjl kajdfkl;ajdlkfjal;dkhgjhgkj
+              aldkjflakdjflkajdlfkjalkdfjalkdfjlk ajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajdl fkjalkdf jalkdfjlk ajdfkl;ajdlkfjal;dk</p>
+              <p>aldkjflakdjflkajdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajd fkjalkdfjalkdfjl  kajdfkl;ajdlkfjal;dktirtifiytcyfjtg
+              aldkjflakdjfl kajdlfkjalkdfjalk dfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk</p>
+              <p>aldkjflakd jflkaj dlfkjalkdfja lkdfjlk ajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajdlfkjalkdfjalkdfjlkajdfkl;ajdlkfjal;dk
+              aldkjflakdjflk ajdlfk jalkdfjal kdfjl ajdfkl;ajdlkfjal;dk
+              aldkjflakdjflkajdlfkjal kdfjalkdfjlkaj dfkl;ajdlkfjal;dkgfjhgfygcky
+              aldkjflakdjflkajdlfk jalkdfjalkdfjlk ajdfkl;ajdlkfjal;dk</p>
+            </div>
+      </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-4 col-md-6 col-xs-12" >
+                    <div class="adimage"><img src="./images/Ad-femme.jpg">
+                      <hr>
+                      <div class="emailvideo">
+                          <h3>Get News!</h3>
+                        <form action="action_page.php">
+                            <input type="email" placeholder="your email address" name="email">
+                          <button type="button" class="btn btn-default">Sign Me Up</button>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+        </div>
+        <li class="stories-list">
+            <img src="./images/Video-Thumb-1.jpg" alt="icon" height="42" width="52"><h3>Norwood Frost</h3></a>
+            <p>The Best Labor Day Deals</p><a href="url"> More</a>
+        </li>
+        <br>
+        <br>
+        <div class="more-info">
+          <p>MORE INFO:  ajkhaklloradfhkajhdkjha kdkfjhakd fkasd a hjkfahds kfhakj dfkljhalhdiuhlkwjek jkk  ipsum siifonsd adon sonsf osf jhdfajkdhfkahdkfjhakdj,akdakdjh</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
