@@ -5,10 +5,14 @@ Description: Bootstrap Blog template converted to WordPress
 Version: 0.0.1
 Tags: bootstrap
 */
+* {
+  border-radius: 0 !important;
+}
 
 body {
-  font-family: "Montserrat", sans-serif;
-  transition: background-color .5s;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color .5s;
+    padding: -4em 0em 0em 0em;
 }
 
 
@@ -17,61 +21,165 @@ body {
   padding: .8em;
 }
 
+.juicy-header {
+  text-align: center;
+
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: black;
     background-color: white;
 }
+.navbar-default {
+  padding:0em 0em 0em 0em;
+
+  max-width: 100%;
+}
+
+nav.navbar.navbar-default{
+  padding-left: 2em;
+/*  padding-right: 2em;*/
+}
 
 .navbar-nav > li{
-  padding:1em 3em 1em 3em;
-  border-left:1px solid grey;
+  padding:1em 3em 1em 4em;
+  border-left:1px solid #eee;
   text-align: center;
   height: 7em;
 
 }
 
-.navbar-nav > li a{
+.navbar-nav > li a {
   padding-top:2em;
   text-align: center;
-
-
 }
+
+
 .navbar-header{
   background-color: white;
   border-top-width: 2em;
+  padding: 0em 2.1em 0em 2em;
   margin: 0em 1.7em 0em 0em;
   height: 7em;
 }
 
-.stories-list {
+.navbar-header img{
+  margin: 1em 0em 2em 0em;
+}
+
+.service-list {
   list-style-type: none;
-  margin-left:0em;
-  padding-left:0em;
+  margin:0em 0em 0em 0em;
+  padding:0em 0em 0em 0em;
   display: inline-block;
 
 }
 
+.service-list img {
+  border:solid black ;
+  border-width: .3em;
+  height:3em;
+  width:4.3em;
+}
 
-.stories-list p,.stories-list h3 {
+.service-list p,.service-list h3 {
   text-align: right;
   display:inline-block;
   padding: 0;
+  font-weight: 900;
+  font-size: 1.2em;
+  color: black;
 }
 
 .social {
-    float: right;
-    margin: 0em 1em 2em 0em;
-    padding: .5em 1em .5em 1em;
-    border:1px solid grey;
+    margin: 1em 0em 0em 0em;
+    padding: 1em 0em 1em 0em;
+    border:1px solid #eee;
+    width: 100%;
+    height:100%;
+    text-align: center;
 }
 
 
-.mainVideo {
-  float: left;
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  margin-left: 3em;
+  border: .5em solid black;
+
 }
-.container {
-   padding:0em 4em 0em 0em;
-   margin:0em 0em 0em 2em;
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
+.video-container > img{
+      width:auto;
+      height:auto;
+      margin:8em 10em 0em 17em;
+
+}
+
+
+.iframe li.service-list{
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+
+}
+
+.playbtn {
+      width:auto;
+      height:auto;
+      margin:10em 10em 0em 17em;
+
+}
+
+.playbtn,
+.largeunicorn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+ .vertical-line {
+    border-left: 1px solid #eee;
+    height: 98em;
+        }
+
+.videos {
+    /*float: left;*/
+    font-size: 1em;
+    color:#808080;
+    padding: 1em 0em 0em 0em;
+    margin: 0em 0em 1em 0em;
+}
+
+  h2 {
+    font-family: Montserrat extra bold 1em;
+    font-size: 1.7em;
+    font-weight: 900;
+    color:#808080;
+    margin-left: 1.5em;
+}
+
+ h3 {
+    font-family: Montserrat extra bold 1em;
+    font-size: 1.3em;
+    font-weight: 900;
+    color:#808080;
+    margin-left: 1.5em;
 }
 
 

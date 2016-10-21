@@ -65,18 +65,12 @@ body {
     border:1px solid grey;
 }
 
-.mainVideo {
-  float: left;
-}
-.container {
-   padding:0em 4em 0em 0em;
-   margin:0em 0em 0em 2em;
-}
+
 
 .stories{
     width:35em;
     length:3em;
-    padding: 11em 0em 0em 0em;
+    padding: 1em 0em 0em 0em;
 }
 
 .contributors{

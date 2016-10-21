@@ -69,37 +69,70 @@ padding: 0;
     float: left;
     font-size: 2em;
 }
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  margin-left: 3em;
+  border: .5em solid black;
 
-
-.iframe{
-    float: right;
-    border:solid;
-    border-width: 5px;
-    width:100%;
-    height:100%;
-    text-align: center;
-    padding:.5em 0em 0em 0em;
-    margin: 5em 6em 0em 0em;
 }
 
-.mainVideo {
-  float: left;
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
-.container {
-    padding:0em 4em 0em 0em;
+
+
+.video-container > img{
+      width:100%;
+      height:100%;
+      margin:8em 10em 0em 17em;
+
 }
+
+
+.iframe li.service-list{
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+
+}
+
+.playbtn {
+      width:auto;
+      height:auto;
+      margin:10em 10em 0em 17em;
+
+}
+
+.playbtn,
+.largeunicorn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+ .vertical-line {
+    border-left: 1px solid #eee;
+    height: 98em;
+        }
 
 .quizzies   {
     width:30em;
     length:3em;
-    /*float: right !important;*/
     padding: 0em 0em 0em 4em;
 }
 
-.tweets{
-    width:30em;
-    length:3em;
-}
+
 
 .stories{
     width:22em;

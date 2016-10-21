@@ -9,16 +9,14 @@
   <meta name="author" content="">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script language="javascript" type="text/javascript">
-    function resizeIframe(obj) {
-      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-    }
-  </script>
+
   <script src="index.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php bloginfo('template_directory');?>style.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/quiz.css">
+  <link href="<?php bloginfo('template_directory');?>home.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/home.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
   <div class="blog-header">
   <h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
   <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
@@ -31,8 +29,7 @@
   <?php wp_head();?>
 
 
-    <div class="container">
-         <nav class="navbar navbar-default " style="background-color: white">
+          <nav class="navbar navbar-default " style="background-color: white">
             <div class="navbar-header">
               <img src="./images/shareworthy-Theme-Logo.jpg" >
             </div>
@@ -43,12 +40,21 @@
               <li><a data-toggle="tab" href="Polls">Polls</a></li>
             </ul>
         </nav>
-    </div>
 
-
-<!--nav sidebar-->
-
-
+<div class="container-fluid">
+        <div class="col-lg-6 col-md-6 col-xs-12" >
+              <div class="social">
+                 <a href="#"><img src="./images/Facebook-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/Instagram-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/deviantart-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/Twitter-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/github-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/behance-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/Pinterest-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/snapchat-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/youtube-crop.jpg" alt="icon" height="32" width="32"></a>
+                 <a href="#"><img src="./images/tumblr-crop.jpg" alt="icon" height="32" width="32"></a>
+              </div>
 
 </head>
 
