@@ -151,7 +151,7 @@ nav.navbar.navbar-default{
   left: 0;
 }
 
-
+.btn-primary { background: #000; }
 
  .vertical-line {
     border-left: 1px solid #eee;
