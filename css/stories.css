@@ -95,6 +95,21 @@ nav.navbar.navbar-default{
     margin-right: 15em;
 
 }
+ h2 {
+    font-family: Montserrat extra bold 1em;
+    font-size: 1.7em;
+    font-weight: 900;
+    color:#808080;
+    margin-left: 1.5em;
+}
+
+ h3 {
+    font-family: Montserrat extra bold 1em;
+    font-size: 1.3em;
+    font-weight: 900;
+    color:#808080;
+    margin-left: 1.5em;
+}
 
 .caption-image{
     margin: 0em 0em 0em 0em;
