@@ -31,22 +31,23 @@ body {
     background-color: white;
 }
 .navbar-default {
-  padding:0em 0em 0em 0em;
-
+  max-height: 100%;
   max-width: 100%;
 }
 
 nav.navbar.navbar-default{
   padding-left: 0em;
-/*  padding-right: 2em;*/
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .navbar-nav > li{
   padding:1em 3em 1em 4em;
+  margin:0em 0em 0em 0em;
   border-left:1px solid #eee;
   text-align: center;
-  height: 7em;
-
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .navbar-nav > li a {
@@ -64,13 +65,13 @@ nav.navbar.navbar-default{
 }
 
 .navbar-header img{
+  max-height: 100%;
+  max-width: 100%;
   margin: 1em 0em 2em 0em;
 }
 
 .service-list {
   list-style-type: none;
-  margin:0em 0em 0em 0em;
-  padding:0em 0em 0em 0em;
   display: inline-block;
 
 }
@@ -104,7 +105,7 @@ nav.navbar.navbar-default{
 .video-container {
   position:relative;
   padding-bottom:56.25%;
-  padding-top:3em;
+  padding-top:0em;
   height:0;
   overflow:hidden;
   margin-left: 3em;
@@ -121,12 +122,7 @@ nav.navbar.navbar-default{
 }
 
 
-.video-container > img{
-      width:auto;
-      height:auto;
-      margin:8em 10em 0em 17em;
 
-}
 
 
 .iframe li.service-list{

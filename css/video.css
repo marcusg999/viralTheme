@@ -42,6 +42,13 @@ body {
   margin: 0em 1.7em 0em 0em;
   height: 7em;
 }
+
+.navbar-header img{
+  margin: 1em 0em 2em 0em;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .service-list {
 list-style-type: none;
 margin-left:0em;
@@ -69,7 +76,7 @@ padding: 0;
 .video-container {
   position:relative;
   padding-bottom:56.25%;
-  padding-top:30px;
+  padding-top:0px;
   height:0;
   overflow:hidden;
   margin-left: 3em;

@@ -61,10 +61,13 @@ nav.navbar.navbar-default{
   padding: 0em 2.1em 0em 2em;
   margin: 0em 1.7em 0em 0em;
   height: 7em;
+
 }
 
 .navbar-header img{
   margin: 1em 0em 2em 0em;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .service-list {
