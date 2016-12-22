@@ -171,6 +171,10 @@ nav.navbar.navbar-default{
     margin: 0em 0em 0em 0em;
 }
 
+.videos ul{
+  padding-top:1em;
+}
+
   h2 {
     font-family: Montserrat extra bold 1em;
     font-size: 1.7em;
