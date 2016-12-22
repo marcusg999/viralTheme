@@ -23,12 +23,13 @@ body {
 
 
 .navbar-nav > li{
-  padding:1em 3em 1em 3em;
-  border-left:1px solid grey;
+  padding:1em 2em 1em 2em;
+  border-left:1px solid #eee;
   text-align: center;
   height: 7em;
 
 }
+
 
 .navbar-nav > li a{
   padding-top:2em;
